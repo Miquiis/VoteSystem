@@ -1,0 +1,20 @@
+name: "${artifactId}"
+author: "${author}"
+main: "${mainClass}"
+version: "${version}"
+
+api-version: 1.16
+
+softdepend:
+  - Teams
+  - LobbyRestart
+
+commands:
+  vote:
+    usage: "Usage: /<command> <voteoption>"
+    description: "Initiates a vote poll."
+    permission: vote.usage
+
+permissions:
+  vote.usage:
+    description: "Allows a player to initiate a vote poll."

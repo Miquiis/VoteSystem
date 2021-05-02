@@ -1,0 +1,23 @@
+#
+#     __  __
+#    |  \/  |___ ______ __ _ __ _ ___ ___
+#    | |\/| / -_|_-<_-</ _` / _` / -_|_-<
+#    |_|  |_\___/__/__/\__,_\__, \___/__/
+#                           |___/
+#
+#
+
+custom-messages:
+  # Messages from /vote <voteoption>
+  vote-poll-up: "&cThere is a vote poll up right now."
+  vote-poll-cooldown: "&cThe vote poll is still in cooldown."
+  vote-poll-initialize: "&aYou have initialized a vote poll."
+  vote-poll-player-not-found: "&cThe player mentioned wasn't found."
+  vote-poll-ignored: "&cThe vote poll was ignored. You can't start this vote option at this time."
+  vote-poll-denied: "&cYou can't vote target this player."
+  # Messages when voting in chat
+  vote-count: "&aYour vote was successfully counted."
+  vote-already-counted: "&eYour vote was already counted."
+  # Message when vote restriction is bigger than current players.
+  vote-restriction-count: "&cThere aren't enough players to initiate this vote."
+

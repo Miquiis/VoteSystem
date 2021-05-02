@@ -1,0 +1,20 @@
+name: "VoteSystem"
+author: "Miquiis"
+main: "me.miquiis.votesystem.VoteSystem"
+version: "1.0-SNAPSHOT"
+
+api-version: 1.16
+
+softdepend:
+  - Teams
+  - LobbyRestart
+
+commands:
+  vote:
+    usage: "Usage: /<command> <voteoption>"
+    description: "Initiates a vote poll."
+    permission: vote.usage
+
+permissions:
+  vote.usage:
+    description: "Allows a player to initiate a vote poll."
